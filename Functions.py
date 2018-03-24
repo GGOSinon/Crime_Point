@@ -19,7 +19,7 @@ class Calculator:
     #print(len(c3_public))
     #print(c3_danger)
     pop_local = 2800000.0
-    pop_metro = 6000000.0
+    pop_metro = 6000000.0*4/7
 
     rat_local = pop_local / (pop_local + pop_metro)
     rat_metro = pop_metro / (pop_metro + pop_local)
